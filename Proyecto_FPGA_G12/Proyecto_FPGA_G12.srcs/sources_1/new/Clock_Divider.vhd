@@ -82,3 +82,5 @@ begin
     -- Asignación de las señales internas a los puertos de salida
     clk_disp <= reg_disp;
     game_tick <= reg_game;
+
+end Behavioral;
