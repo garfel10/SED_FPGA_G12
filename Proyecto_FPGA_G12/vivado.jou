@@ -3,29 +3,31 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Wed Jan 21 21:37:12 2026
-# Process ID         : 18692
-# Current directory  : C:/Users/david/Documents/GitHub/SED_FPGA_G12/Proyecto_FPGA_G12
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent23684 C:\Users\david\Documents\GitHub\SED_FPGA_G12\Proyecto_FPGA_G12\Proyecto_FPGA_G12.xpr
-# Log file           : C:/Users/david/Documents/GitHub/SED_FPGA_G12/Proyecto_FPGA_G12/vivado.log
-# Journal file       : C:/Users/david/Documents/GitHub/SED_FPGA_G12/Proyecto_FPGA_G12\vivado.jou
-# Running On         : David5070
+# Start of session at: Thu Jan 22 12:17:43 2026
+# Process ID         : 3700
+# Current directory  : C:/Laboratorio SED/SED_FPGA_G12/Proyecto_FPGA_G12
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent27092 C:\Laboratorio SED\SED_FPGA_G12\Proyecto_FPGA_G12\Proyecto_FPGA_G12.xpr
+# Log file           : C:/Laboratorio SED/SED_FPGA_G12/Proyecto_FPGA_G12/vivado.log
+# Journal file       : C:/Laboratorio SED/SED_FPGA_G12/Proyecto_FPGA_G12\vivado.jou
+# Running On         : Portatil_Alex
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
-# Processor Detail   : Intel(R) Core(TM) i7-14700F
-# CPU Frequency      : 2112 MHz
-# CPU Physical cores : 20
-# CPU Logical cores  : 28
-# Host memory        : 34200 MB
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1355U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 33974 MB
 # Swap memory        : 2147 MB
-# Total Virtual      : 36347 MB
-# Available Virtual  : 22140 MB
+# Total Virtual      : 36121 MB
+# Available Virtual  : 14836 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/david/Documents/GitHub/SED_FPGA_G12/Proyecto_FPGA_G12/Proyecto_FPGA_G12.xpr
+open_project {C:/Laboratorio SED/SED_FPGA_G12/Proyecto_FPGA_G12/Proyecto_FPGA_G12.xpr}
 update_compile_order -fileset sources_1
-file mkdir C:/Users/david/Documents/GitHub/SED_FPGA_G12/Proyecto_FPGA_G12/Proyecto_FPGA_G12.srcs/sim_1/new
+open_project {C:/Laboratorio SED/TRABAJO_FPGA_FINAL/TRABAJO_FPGA/TRABAJO_FPGA.xpr}
+update_compile_order -fileset sources_1
+current_project Proyecto_FPGA_G12
 set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open C:/Users/david/Documents/GitHub/SED_FPGA_G12/Proyecto_FPGA_G12/Proyecto_FPGA_G12.srcs/sim_1/new/Game_Logic_TB.vhd w ]
-add_files -fileset sim_1 C:/Users/david/Documents/GitHub/SED_FPGA_G12/Proyecto_FPGA_G12/Proyecto_FPGA_G12.srcs/sim_1/new/Game_Logic_TB.vhd
+close [ open {C:/Laboratorio SED/SED_FPGA_G12/Proyecto_FPGA_G12/Proyecto_FPGA_G12.srcs/sim_1/new/Debouncer_TB.vhd} w ]
+add_files -fileset sim_1 {{C:/Laboratorio SED/SED_FPGA_G12/Proyecto_FPGA_G12/Proyecto_FPGA_G12.srcs/sim_1/new/Debouncer_TB.vhd}}
 update_compile_order -fileset sim_1
